@@ -11,7 +11,7 @@ const testData = {
   email: faker.internet.email(),
   name: faker.name.firstName(),
   message: faker.random.words(),
-  successMessage: 'Thanks for the messages!'
+  successMessage: 'Thanks you!'
 };
 
 describe('Contact', () => {
