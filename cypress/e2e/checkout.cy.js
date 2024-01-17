@@ -26,7 +26,7 @@ describe('Demoblaze checkout', () => {
     homePage.visit();
   });
 
-  it('should allow to add a product to the cart and place the order', () => {
+  it('should allow to add the product to the cart and place the order', () => {
     homePage.clickOnCategory('Laptops');
 
     homePage.clickOnProduct('Sony vaio i7');
